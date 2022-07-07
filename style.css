@@ -9,6 +9,7 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 
 #main-container {
@@ -20,6 +21,28 @@
 }
 
 #main-container > div {
-    height: 200vh;
+    margin-top: 100px;
+    height: 100vh;
     border: 1px solid;
+}
+
+
+#left-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#left-container * {
+    position: fixed;
+}
+
+#extra-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#extra-container * {
+    position: fixed;
 }

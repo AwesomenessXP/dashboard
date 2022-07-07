@@ -1,6 +1,11 @@
 #header-container, #header-container *{
-    position: sticky;
     background-color: #1B1D2A;
+}
+
+#header-container {
+    width: 99.3vw;
+    height: auto;
+    position: fixed;
 }
 
 #header {
