@@ -14,14 +14,16 @@
 }
 
 #main-container {
+    height: 100%;
     display: grid;
-    grid-template: 1fr / 1fr 3fr 1.5fr;
+    grid-template: 1fr / 1fr 3fr 1.2fr;
     /* margin: top right bottom left */
     margin: 20px 10% 0 10%;
     gap: 20px;
+    overflow: hidden;
 }
 
-#right-container, #extra-container {
+#extra-container {
     margin-top: 90px;
     height: 100vh;
     border: 1px solid;

@@ -1,9 +1,7 @@
 #left-container {
     margin-top: 90px;
     height: 100vh;
-    display: grid;
-    text-align: left;
-    justify-content: left;
+    display: flex;
 }
 
 #left-container ul {
@@ -16,7 +14,6 @@
 
 #left-container ul > li {
     margin: 8px 5px 0 5px;
-    position: relative;
     height: 70px;
     width: auto;
     display: flex;
@@ -35,7 +32,7 @@
 
 #left-container ul > li:hover{
     cursor: pointer;
-    background-color: #0c0f1d8c;
+    background-color: #0c0f1d79;
 }
 
 #left-container ul > li > svg {
@@ -45,7 +42,7 @@
 
 #nav-container {
     position: fixed;
-    width: 14.13%;
+    width: 14.9%;
 }
 
 #home-btn {

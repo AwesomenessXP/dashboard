@@ -1,0 +1,30 @@
+#right-container {
+    height: 100%;
+}
+
+#articles {
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+#articles *{
+    display: grid;
+    border: 1px solid;
+    height: 300px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#content-header {
+    margin-top: 90px;
+    height: 80px;
+    border: 1px solid;
+    border-radius: 15px;
+}
+
+#content-header::-webkit-scrollbar {
+    opacity: 0%;
+}
