@@ -56,9 +56,8 @@ input[type="search"]{
 }
 
 #menu ul{
-    display: grid;
-    grid-template: 1fr/ repeat(3, 1fr);
-    grid-template-areas: "post message pfp";
+    padding: 0 10px 0 10px;
+    display: flex;
     list-style: none;
     gap: 10px;
     align-items: center;
@@ -103,4 +102,10 @@ input[type="search"]{
     height: 90px;
     width: auto;
     align-self: center;
+}
+
+#post:hover, #message:hover{
+    background-image: linear-gradient(to bottom right, rgb(0, 255, 106), rgb(0, 119, 255));
+    transform: scale(1.12);
+    transition: transform 0.15s ease-out;
 }
