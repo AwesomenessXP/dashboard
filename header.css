@@ -29,6 +29,10 @@
     font-family: 'Oxanium', sans-serif;
 }
 
+#header h1:hover {
+    cursor: pointer;
+}
+
 #search-bar {
     display: flex;
     align-items: center;
@@ -88,5 +92,5 @@ input[type="search"]{
     align-self: right;
     justify-self: right;
     border-radius: 100px;
-    border: 1px solid;
+    border: 2px solid;
 }

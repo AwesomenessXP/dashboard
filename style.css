@@ -29,20 +29,11 @@
 
 #left-container {
     display: flex;
-    text-align: center;
-    justify-content: center;
+    text-align: left;
+    justify-content: left;
+    padding: 15px 0 0 20px;
 }
 
 #left-container * {
-    position: fixed;
-}
-
-#extra-container {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-}
-
-#extra-container * {
     position: fixed;
 }
