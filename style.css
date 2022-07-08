@@ -2,6 +2,7 @@
     --background: #0C0F1D;
     --main-text-color: white;
     --blue-green-gradient: linear-gradient(to bottom right, rgb(0, 255, 106), rgb(0, 119, 255));
+    --container-radius: 15px;
 }
 
 * {
@@ -27,4 +28,11 @@
     margin-top: 90px;
     height: 100vh;
     border: 1px solid;
+    display: grid;
+    text-align: center;
+    border-radius: var(--container-radius);
+}
+
+#extra-container * {
+    padding: 10px;
 }

@@ -15,14 +15,14 @@
     height: 300px;
     justify-content: center;
     padding: 10px;
-    border-radius: 15px;
+    border-radius: var(--container-radius);
 }
 
 #content-header {
     margin-top: 90px;
     height: 80px;
     border: 1px solid;
-    border-radius: 15px;
+    border-radius: var(--container-radius);
 }
 
 #content-header::-webkit-scrollbar {
