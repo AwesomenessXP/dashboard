@@ -1,0 +1,37 @@
+#left-container {
+    margin-top: 90px;
+    height: 100vh;
+    display: grid;
+    text-align: left;
+    justify-content: left;
+}
+
+#left-container ul {
+    height: 450px;
+    display: grid;
+    grid-template: repeat(5, 1fr) / 1fr;
+    border-radius: 15px;
+    background-image: var(--blue-green-gradient);
+}
+
+#left-container ul > li {
+    margin: 8px 5px 0 5px;
+    position: relative;
+    height: 70px;
+    width: auto;
+    display: grid;
+    align-items: center;
+    padding-left: 20px;
+    z-index: 0;
+    border-radius: 20px;
+}
+
+#left-container ul > li:hover {
+    cursor: pointer;
+    background-color: #0c0f1d8c;
+}
+
+#nav-container {
+    position: fixed;
+    width: 14.13%;
+}

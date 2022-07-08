@@ -1,6 +1,7 @@
 :root {
     --background: #0C0F1D;
     --main-text-color: white;
+    --blue-green-gradient: linear-gradient(to bottom right, rgb(0, 255, 106), rgb(0, 119, 255));
 }
 
 * {
@@ -20,20 +21,8 @@
     gap: 20px;
 }
 
-#main-container > div {
+#right-container, #extra-container {
     margin-top: 90px;
     height: 100vh;
     border: 1px solid;
-}
-
-
-#left-container {
-    display: flex;
-    text-align: left;
-    justify-content: left;
-    padding: 15px 0 0 20px;
-}
-
-#left-container * {
-    position: fixed;
 }

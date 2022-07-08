@@ -6,6 +6,7 @@
     width: 99.3vw;
     height: auto;
     position: fixed;
+    z-index: 1;
 }
 
 #header {
@@ -82,7 +83,7 @@ input[type="search"]{
 #post, #message {
     height: 20px;
     border-radius: 16px;
-    background-image: linear-gradient(to bottom right, rgb(0, 255, 106), rgb(0, 119, 255));
+    background-image: var(--blue-green-gradient);
 }
 
 #pfp {
@@ -93,4 +94,13 @@ input[type="search"]{
     justify-self: right;
     border-radius: 100px;
     border: 2px solid;
+    overflow: hidden;
+}
+
+#kuki {
+    margin-top: -10px;
+    margin-left: -7px;
+    height: 90px;
+    width: auto;
+    align-self: center;
 }
