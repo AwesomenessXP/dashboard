@@ -40,6 +40,17 @@
     font-size: 50px;
 }
 
+input[type="search"]::-webkit-search-cancel-button{
+    position:relative;
+    right:20px;  
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    background-image: url(x-mark-16.png);
+    background-repeat: none;
+    overflow: hidden;
+}
+
 input[type="search"]{
     font-size: 15px;
 }
