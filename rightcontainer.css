@@ -19,10 +19,18 @@
 }
 
 #content-header {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
     margin-top: 90px;
-    height: 80px;
+    height: 70px;
     border: 1px solid;
     border-radius: var(--container-radius);
+}
+
+#content-header *{
+    display: flex;
+    align-items: center;
 }
 
 #content-header::-webkit-scrollbar {

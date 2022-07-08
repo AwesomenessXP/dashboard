@@ -24,6 +24,15 @@
     overflow: hidden;
 }
 
+footer {
+    border-top: 2px solid;
+    margin-top: 90px;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
 #extra-container {
     margin-top: 90px;
     height: 100vh;
