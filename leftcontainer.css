@@ -13,6 +13,7 @@
 }
 
 #left-container ul > li {
+    border: 2px solid;
     margin: 8px 5px 0 5px;
     height: 70px;
     width: auto;
