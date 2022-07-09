@@ -1,0 +1,12 @@
+#extra-container {
+    margin-top: 90px;
+    height: 100vh;
+    display: grid;
+    text-align: center;
+    border-radius: var(--container-radius);
+}
+
+#extra-container * {
+    background-color: #1B1D2A;
+    padding: 10px;
+}

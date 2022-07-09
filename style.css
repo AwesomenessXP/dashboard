@@ -32,16 +32,3 @@ footer {
     justify-content: center;
     align-items: center;
 }
-
-#extra-container {
-    margin-top: 90px;
-    height: 100vh;
-    border: 1px solid;
-    display: grid;
-    text-align: center;
-    border-radius: var(--container-radius);
-}
-
-#extra-container * {
-    padding: 10px;
-}
