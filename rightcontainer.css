@@ -19,20 +19,21 @@
 
 .article-container{
     align-items: center;
-    border: 1px solid;
+    /* border: 1px solid; */
     height: 300px;
     overflow: hidden;
     border-radius: var(--container-radius);
 }
 
-#content-header {
+#content-header *{
     padding: 10px;
     display: flex;
     justify-content: left;
     align-items: center;
     margin-top: 90px;
     height: 70px;
-    border: 1px solid;
+    /* border: 1px solid; */
+    background-color: #1B1D2A;;
     border-radius: var(--container-radius);
 }
 
@@ -49,12 +50,23 @@
 }
 
 .article-content{
+    padding: 30px;
     flex-direction: column;
-
-    padding: 10px;
+    align-items: center;
     height: 300px;
     width: 100%;
 }
 
-.article-content h1 {
+.article-content, .article-content * {
+    background-color: #1B1D2A;
+}
+
+.article-content h1{
+    padding: 10px 0 0 0;
+    overflow: hidden;
+}
+
+.article-content p {
+    overflow: hidden;
+    margin-top: 5px;
 }
