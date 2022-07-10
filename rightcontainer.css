@@ -70,3 +70,12 @@
     overflow: hidden;
     margin-top: 5px;
 }
+
+.user-actions {
+    justify-self: right;
+    margin-top: 30px;
+}
+
+.user-actions * {
+    margin: 0 5px 0 5px;
+}
