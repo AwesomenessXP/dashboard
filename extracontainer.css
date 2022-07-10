@@ -1,12 +1,39 @@
 #extra-container {
     margin-top: 90px;
     height: 100vh;
-    display: grid;
+    display: flex;
+    flex-direction: column;
     text-align: center;
     border-radius: var(--container-radius);
+    background-color: #1B1D2A;
 }
 
 #extra-container * {
     background-color: #1B1D2A;
     padding: 10px;
+    overflow: hidden;
+}
+
+#extra-content {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 100vh;
+    padding: 0px 30px 30px 30px;
+}
+
+#extra-container h2 { 
+    height: 30px;
+}
+
+#extra-content > div > p {
+    padding: 0 10px 10px 10px;
+}
+
+#extra-content > div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 10px 0;
+    background-image: var(--blue-green-gradient);
+    border-radius: var(--container-radius);
 }

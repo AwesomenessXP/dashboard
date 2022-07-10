@@ -72,8 +72,10 @@
 }
 
 .user-actions {
-    justify-self: right;
-    margin-top: 30px;
+    align-self: left;
+    justify-self: end;
+    margin-top: 10px;
+    overflow: hidden;
 }
 
 .user-actions * {
