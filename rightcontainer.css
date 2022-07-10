@@ -25,22 +25,6 @@
     border-radius: var(--container-radius);
 }
 
-#content-header *{
-    padding: 10px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-top: 90px;
-    height: 70px;
-    /* border: 1px solid; */
-    background-color: #1B1D2A;
-    border-radius: var(--container-radius);
-}
-
-#content-header::-webkit-scrollbar {
-    opacity: 0%;
-}
-
 .color-stripe {
     justify-self: left;
     height: 300px;
@@ -81,3 +65,44 @@
 .user-actions * {
     margin: 0 5px 0 5px;
 }
+
+#content-header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    height: 70px;
+    /* border: 1px solid; */
+    background-color: #1B1D2A;
+    border-radius: var(--container-radius);
+}
+
+#content-header h1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    /* border: 1px solid; */
+    background-color: #1B1D2A;
+}
+
+#content-header::-webkit-scrollbar {
+    opacity: 0%;
+}
+
+#dropdown-container {
+    background-color: #1B1D2A;
+    border-radius: 8px;
+    border-color: white;
+}
+
+select {
+    background-color: #1B1D2A;
+    border-radius: 8px;
+    border-color: white;
+}
+
+select::selection{
+    border-radius: 8px;
+    border-color: white;
+}    
