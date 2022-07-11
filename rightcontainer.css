@@ -57,6 +57,10 @@
     margin-top: 5px;
 }
 
+.article-paragraph > p {
+    overflow: hidden;
+}
+
 .user-actions {
     align-self: left;
     justify-self: end;
