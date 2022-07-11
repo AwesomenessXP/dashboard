@@ -33,3 +33,70 @@ footer {
     align-items: center;
     background-color: #1B1D2A;
 }
+
+@media (max-width: 1540px) {
+    #main-container {
+        height: 100%;
+        display: grid;
+        grid-template: 1fr / 1fr 3fr;
+        /* margin: top right bottom left */
+        margin: 20px 10% 0 10%;
+        gap: 20px;
+        overflow: hidden;
+    }
+
+    #extra-container {
+        display: none;
+        position: absolute;
+        opacity: 0%;
+        z-index: -100;
+    }
+}
+
+@media (max-width: 1050px) {
+    #search-bar {
+        display: none;
+        position: absolute;
+        opacity: 0%;
+    }
+
+    .nav-desc {
+        display: none;
+        opacity: 0%;
+        /* position: absolute; */
+    }
+
+    #left-container ul > li:hover{
+        cursor: pointer;
+        background-color: #0c0f1d79;
+    }
+}
+
+@media (max-width: 575px) {
+    #post, #message {
+        display: none;
+        opacity: 0%;
+        position: absolute;
+        height: 20px;
+        border-radius: 16px;
+        background-image: var(--blue-green-gradient);
+    }
+}
+
+@media (max-width: 500px) {
+    #main-container {
+        height: 100%;
+        display: grid;
+        grid-template: 1fr / 1fr;
+        /* margin: top right bottom left */
+        margin: 20px 10% 0 10%;
+        gap: 20px;
+        overflow: hidden;
+    }
+
+    #left-container {
+        display: none;
+        position: absolute;
+        opacity: 0%;
+    }
+}
