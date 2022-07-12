@@ -66,10 +66,11 @@
     justify-self: end;
     margin-top: 10px;
     overflow: hidden;
+    margin-left: 10px;
 }
 
 .user-actions * {
-    margin: 0 5px 0 5px;
+    margin: 0 25px 0 25px;
 }
 
 #content-header {
